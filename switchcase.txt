@@ -1,0 +1,23 @@
+#include<stdio.h>
+ void main()
+{
+int sum=10,n=2;
+switch(n)
+{
+case1:
+sum=sum+9;
+break;
+case2:
+sum=sun+8;
+break;
+case5:
+sum=sun+7;
+break;
+case9:
+sum=sum+6;
+break;
+default:
+sum=sum-5;
+}
+printf("sum=%d",sum);
+}
