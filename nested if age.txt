@@ -1,0 +1,24 @@
+
+#include<stdio.h> 
+void main()
+{
+char age;
+printf("enter the age"); 
+scanf("%c",&age); 
+if (age>=18 && age<=50)
+{
+printf("eligible according to age");
+if(age>=18 && age<=25)
+{
+printf("eligible for grade A");
+}
+else
+{
+printf("not eligible for grade A");
+}
+}
+else
+{
+printf("not eligible for job");
+}
+}

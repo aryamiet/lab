@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c;
+printf("enter the number");
+scanf("%d%d",&a,&b);
+printf("sum=%d\n",c);
+c=a+b;
+printf("subtraction=%d\n",c);
+c=a-b;
+printf("multiplication=%d\n",c);
+c=a*b;
+printf("division=%d\n",c);
+c=a/b;
+}

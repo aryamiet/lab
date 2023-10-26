@@ -1,0 +1,9 @@
+#iclude<stdio.h>
+void main()
+{
+int a,b,big;
+printf("enter two number");
+scanf("%d%d",&a,&b);
+big=a>b?a:b;
+printf("the greatest no is=%d",big);
+}

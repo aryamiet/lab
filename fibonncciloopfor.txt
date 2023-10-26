@@ -1,0 +1,25 @@
+experiment 4(b):write a program to print fibonacci sequence using a for loop  
+//title of program 
+//program to print fibonaccisequence using a for loop
+#include <stdio.h>
+//function heading
+void main()
+{
+//declaring variables
+int i,n,a=0,b=1, number;
+//output statement 
+printf("enter the number of elements ");
+scanf("%d",&n);
+//input statement
+printf("Fibonacci Suries"); 
+//loop 
+for (i=1; i<=n; ++i)
+{
+//output staement
+printf(" %d\t",a);
+//formulaes or conditions used
+number=a+b;
+a=b;
+b=number;
+}
+}

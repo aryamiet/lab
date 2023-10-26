@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+int marks;
+printf("enter the marks"); 
+scanf("%d",&marks); 
+printf("handwriting is good or bad");
+char ch;
+scanf("%c%c",&ch, &ch);      
+if(ch=='y'||ch=='n');
+{
+marks-marks+10;
+}
+{
+printf("your marks is %d",marks);
+}
+}

@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int rows = 5; // Number of rows in the tables
+    int columns = 10; // Number of columns in the tables
+
+    printf("Table 1:\n");
+    for (int i = 1; i <= rows; i++) {
+        for (int j = 1; j <= columns; j++) {
+            printf("%2d x %2d = %2d   ", i, j, i * j);
+        }
+        printf("\n");
+    }
+
+    printf("\nTable 2:\n");
+    for (int i = 6; i <= 10; i++) {
+        for (int j = 1; j <= columns; j++) {
+            printf("%2d x %2d = %2d   ", i, j, i * j);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
