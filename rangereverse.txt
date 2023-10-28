@@ -1,0 +1,14 @@
+#invlude<stdio.h>
+void main()
+{
+int number,rev=0,rem;
+printf("enter the number");
+scanf("%d",&number);
+while(number!-10)
+{
+rem=number%10;
+rev=rev*10+rem;
+number/10;
+}
+printf("revers of number=%d",reverse);
+}
