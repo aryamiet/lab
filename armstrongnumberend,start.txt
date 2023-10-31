@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+int number,end,start,originalnumber,result,n;
+printf("enter the start number");
+scanf("%d",&start);
+printf("enter the end number");
+scanf("%d",&end);
+printf(" armstrong number between%d and%d are");
+for(number=start;number<=end;++number)
+{
+originalnumber=number;
+n=0;
+result=0;
+while(originalnumber!=0)
+{
+originalnumber/=10;
+++n;
+}
+originalnumber=number;
+while(originalnumber!=0)
+{
+reminder=originalnumber%10;
+result+=pow(reminder,n);
+originalnumber/=n;
+}
+if(result==number}
+{
+printf("%d\n",number);
+}
+}
+printf("\n");
+return 0;
+}
+
+
